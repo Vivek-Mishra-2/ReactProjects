@@ -1,0 +1,28 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.todo-input {
+  margin-bottom: 20px;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-list li.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-list li input[type="checkbox"] {
+  margin-right: 10px;
+}

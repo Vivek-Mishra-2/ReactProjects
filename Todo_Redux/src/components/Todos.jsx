@@ -17,7 +17,7 @@ function Todos() {
             <div className='text-white'>{todo.text}</div>
             <button
              onClick={() => dispatch(removeTodo(todo.id))}
-              className="text-white bg-red-500 border-0 py-1 px-4 focus:outline-none hover:bg-red-600 rounded text-md"
+              className="text-white zbg-red-500 border-0 py-1 px-4 focus:outline-none hover:bg-red-600 rounded text-md"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
